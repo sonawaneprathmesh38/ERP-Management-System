@@ -1,0 +1,86 @@
+{
+  "users": [],
+  "products": [
+    { "id": "1", "title": "Organic Bananas", "SKU": "FRT-001", "price": 60, "stock": 150, "reorderLevel": 20, "category": "Fruits" },
+    { "id": "2", "title": "Whole Milk (1L)", "SKU": "DRY-001", "price": 65, "stock": 50, "reorderLevel": 10, "category": "Dairy" },
+    { "id": "3", "title": "Sourdough Bread", "SKU": "BAK-001", "price": 80, "stock": 25, "reorderLevel": 5, "category": "Bakery" },
+    { "id": "4", "title": "Basmati Rice (5kg)", "SKU": "PAN-001", "price": 450, "stock": 80, "reorderLevel": 15, "category": "Pantry" },
+    { "id": "5", "title": "Toor Dal (1kg)", "SKU": "PAN-002", "price": 140, "stock": 60, "reorderLevel": 10, "category": "Pantry" },
+    { "id": "6", "title": "Sunflower Oil (1L)", "SKU": "PAN-003", "price": 125, "stock": 100, "reorderLevel": 20, "category": "Pantry" },
+    { "id": "7", "title": "Amul Butter (500g)", "SKU": "DRY-002", "price": 275, "stock": 40, "reorderLevel": 10, "category": "Dairy" },
+    { "id": "8", "title": "Paneer (200g)", "SKU": "DRY-003", "price": 85, "stock": 30, "reorderLevel": 10, "category": "Dairy" },
+    { "id": "9", "title": "Onions (1kg)", "SKU": "VEG-001", "price": 40, "stock": 200, "reorderLevel": 50, "category": "Vegetables" },
+    { "id": "10", "title": "Tomatoes (1kg)", "SKU": "VEG-002", "price": 50, "stock": 150, "reorderLevel": 30, "category": "Vegetables" },
+    { "id": "11", "title": "Aashirvaad Atta (5kg)", "SKU": "PAN-004", "price": 230, "stock": 50, "reorderLevel": 15, "category": "Pantry" },
+    { "id": "12", "title": "Taj Mahal Tea (500g)", "SKU": "BEV-001", "price": 310, "stock": 45, "reorderLevel": 10, "category": "Beverages" }
+  ],
+  "customers": [],
+  "suppliers": [],
+  "salesOrders": [
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Organic Bananas",
+          "SKU": "FRT-001",
+          "price": 60,
+          "stock": 150,
+          "reorderLevel": 20,
+          "category": "Fruits",
+          "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "title": "Whole Milk (1L)",
+          "SKU": "DRY-001",
+          "price": 65,
+          "stock": 50,
+          "reorderLevel": 10,
+          "category": "Dairy",
+          "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 125,
+      "status": "pending",
+      "customerName": "Guest Customer",
+      "id": "SO-1778042793993",
+      "createdAt": "2026-05-06T04:46:33.993Z"
+    },
+    {
+      "items": [
+        {
+          "id": "1",
+          "title": "Organic Bananas",
+          "SKU": "FRT-001",
+          "price": 60,
+          "stock": 150,
+          "reorderLevel": 20,
+          "category": "Fruits",
+          "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&q=80",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "title": "Whole Milk (1L)",
+          "SKU": "DRY-001",
+          "price": 65,
+          "stock": 50,
+          "reorderLevel": 10,
+          "category": "Dairy",
+          "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 125,
+      "status": "pending",
+      "customerName": "Guest Customer",
+      "id": "SO-1778042997536",
+      "createdAt": "2026-05-06T04:49:57.536Z"
+    }
+  ],
+  "purchaseOrders": [],
+  "grns": [],
+  "invoices": []
+}
